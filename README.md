@@ -17,4 +17,10 @@ Installed:
 
 Complete!
 ```
-
+* Подготовил окружение для сборки rpm пакетов:
+```console
+[root@server vagrant]# rpmdev-setuptree
+[root@server vagrant]# ls /root/rpmbuild/
+BUILD  RPMS  SOURCES  SPECS  SRPMS
+```
+*
