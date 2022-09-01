@@ -23,4 +23,18 @@ Complete!
 [root@server vagrant]# ls /root/rpmbuild/
 BUILD  RPMS  SOURCES  SPECS  SRPMS
 ```
-*
+* Скачал исходники [Apache HTTPD Server 2.4.54] (https://httpd.apache.org/download.cgi#apache24)
+```console
+[root@server vagrant]# wget https://dlcdn.apache.org/httpd/httpd-2.4.54.tar.bz2
+--2022-09-01 17:13:19--  https://dlcdn.apache.org/httpd/httpd-2.4.54.tar.bz2
+Resolving dlcdn.apache.org (dlcdn.apache.org)... 151.101.2.132
+Connecting to dlcdn.apache.org (dlcdn.apache.org)|151.101.2.132|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9743277 (9.3M) [application/x-gzip]
+Saving to: 'httpd-2.4.54.tar.bz2'
+
+httpd-2.4.54.tar.gz 100%[===================>]   9.29M  8.64MB/s    in 1.1s    
+
+2022-09-01 17:13:20 (8.64 MB/s) - 'httpd-2.4.54.tar.bz2' saved [9743277/9743277]
+
+```
