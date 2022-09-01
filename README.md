@@ -1,1 +1,2 @@
-# Otus_Unit_6_RPM
+### Домашнее задание №6 (RMP)
+#### Создан [Vagrantfile]()
