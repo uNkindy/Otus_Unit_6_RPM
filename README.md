@@ -1,6 +1,6 @@
 ### Домашнее задание №6 (RMP)
 #### 1. Создан [Vagrantfile](https://github.com/uNkindy/Otus_Unit_6_RPM/blob/main/Vagrantfile)
-* Установлены пакеты для сборки rpm пакетов
+* Установлены пакеты для сборки rpm пакетов:
 ```console
 [root@server vagrant]# yum group install "RPM Development Tools"
 
