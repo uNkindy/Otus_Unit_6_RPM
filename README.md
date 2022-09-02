@@ -142,7 +142,7 @@ mod_ssl-debuginfo-2.4.54-1.x86_64.rpm
 ```console
 [root@server 8]# cp /root/rpmbuild/RPMS/x86_64/*.rpm /home/vagrant/repos/almalinux/8/
 ```
-*Создал репозиторий в директории:
+* Создал репозиторий в директории:
 ```console
 [root@server 8]# createrepo /home/vagrant/repos/almalinux/8/
 Directory walk started
@@ -247,7 +247,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
 [root@server 8]# yum repolist enabled
 Failed to set locale, defaulting to C.UTF-8
 repo id                                                                                                 repo name
-local     
+local                                                                                                   Local    
 ```
 * Установил собранный rpm пакет с последней версией __httpd__ при помщи __yum__:
 ```console
